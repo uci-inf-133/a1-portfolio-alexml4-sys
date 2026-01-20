@@ -11,27 +11,22 @@ h1 {
 
 #navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   background-color: #817b7b76;
+  justify-content: space-between;
 }
 
 #navbar .menu{
   list-style-type: none;
   display: flex;
   margin: 0;
-  padding: 0;;
+  padding: 0;
 }
 
 #navbar ul li {
-  border-right: 2px solid black;
   padding: 0px 10px;
   margin: 10px 0px;
-}
-
-#navbar ul li:last-child {
-  border-right: none;
 }
 
 #navbar a {
@@ -64,10 +59,21 @@ h1 {
 #portrait {
   width: 20em;
   height: 20em;
-  display: 
 }
 
 .center {
   margin: auto;
 }
 
+#skills {
+  display: flex;
+}
+
+#skills img{
+  width: 5em;
+  height: 5em;
+}
+
+.row {
+  margin-bottom: 20px;
+}
