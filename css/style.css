@@ -1,3 +1,4 @@
+/* resets the margin and padding and sets the default fonts */
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +10,13 @@ h1 {
   padding: 10px
 }
 
+/* allows navbar to stay showing on the screen at all times */
 header {
   position: sticky;
   top: 0;
 }
 
+/* converts lists of links to a navigation bar */
 #navbar {
   display: flex;
   align-items: center;
@@ -102,6 +105,7 @@ footer img {
   height: 3em;
 }
 
+/* turns resume link into a clickable button */
 a.button {
     padding: 8px 8px;
     border: 1px outset buttonborder;
