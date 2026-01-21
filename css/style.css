@@ -54,6 +54,10 @@ header {
   display: none;
 }
 
+#home h2 {
+  font-size: 40px;
+}
+
 
 #home p {
   padding: 10px
